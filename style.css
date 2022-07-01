@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+}
+
+.tabela{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    margin-top: auto;
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+    width : 800px;
+}
+
+td, th {
+    border-bottom: 1px solid #dddddd;
+    padding: 8px;
+}
+
+.table{
+    padding: .3rem 1.2rem;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #999999;
+}
+
+.team_position{ 
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 10px;
+    width: 50px;
+}
+
+.team_name{
+
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    text-align: left;
+    width: 900px;
+}
+
+.spots{
+    font-weight: bolder;
+}
+
+.spots, .victory, .defeats, .against, .performance {
+    background-color: #F7F7F7;
+}
+
+.column{
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+    font-weight: none;
+    width: 5px;
+}
+
+tr:nth-child(4){
+    border-bottom: 2px solid #CCCCCC;
+}
+
+tr:nth-child(16){
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.cor_tacaLibertadores{
+    color: #003366;
+}
+
+.cor_preLibertadores{
+    color: #1398BE;
+}
+
+.cor_sulAmericana{
+    color: #DE9800;
+}
+
+.cor_cinza{
+    color: #CCCCCC;
+}
+
+.cor_rebaixados{
+    color: #C91B04;
+}
+
+.classification{
+    font-size: 10px;
+    color: #8F8F8F;
+    text-align: left;
+}
+
+.classification 
+.taca_libertadores, 
+.pre_libertadores,
+.sul_americana, 
+.times_rebaixados{
+    padding-left: 13px;
+}
+
+.taca_libertadores::before{
+    content: "";
+    border-left: 11px solid #003366;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.pre_libertadores::before{
+    content: "";
+    border-left: 11px solid #1398BE;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.sul_americana::before{
+    content: "";
+    border-left: 11px solid #DE9800;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+.times_rebaixados::before{
+    content: "";
+    border-left: 11px solid #C91B04;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+
+
+.legendas_siglas{
+    padding: 10px 0 0 15px;
+}
+
+.legend{
+    font-size: 10px;
+    color: #555555;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.meaning{
+    font-size: 10px;
+    color: #555555;
+    text-align: left;
+    padding-right:5px;
+}
